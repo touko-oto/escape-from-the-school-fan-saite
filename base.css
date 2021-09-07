@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* ========BASIC======== */
+body{
+font-size : 0.8em;
+font-family : Verdana,Osaka,'MS UI Gothic';
+color:#333; 
+line-height:150%;
+margin:0;
+letter-spacing:0.05em;
+background:url("image/kazeoka02.jpg") 110% 125% no-repeat fixed;
+
+}
+
+a{
+color:#899501;
+text-decoration:none;
+}
+
+a:hover{
+color:#ffffff;
+cursor:auto;
+}
+
+image{
+border:0;
+}
+
+br{
+letter-spacing:normal;
+}
+
+/* タイトル */
+h1{
+font-size:16px;
+color:#339999;
+font-weight:bold;
+text-align:center;
+margin:30px;
+}
+
+/* ========TEMPLATE FRAMEWORK======== */
+div#wrapper  {
+margin-right:400px;
+text-align:left;
+padding:10px;
+}
+
+/* ========MENU CUSTOMIZE======== */
+div#menu{
+}
+
+div#menu ul{
+list-style:none;
+padding-left:90px;
+margin:30px 0;
+}
+
+div#menu li{
+display:inline;
+padding-right:30px;
+}
+
+/* ========CONTENTS CUSTOMIZE======== */
+div#contents{
+}
+
+div#contents h2{
+background:url("image/icon12.gif") no-repeat;
+padding:3px 3px 3px 45px;
+border-bottom:1px #899501 dotted;
+font-size:1em;
+font-weight:normal;
+line-height:29px;
+margin:0;
+}
+
+div#contents p{
+margin:0;
+padding:0.5em 0 2em 0;
+}
+
+div#contents strong{
+color:blue;
+font-weight:normal;
+border-bottom:1px dashed #999;
+}
+
+/* ========FOOTER CUSTOMIZE======== */
+div#footer{
+font-size:0.9em;
+text-align:center;
+padding:10px;
+border-top:5px double #899501;
+}
