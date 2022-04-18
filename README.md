@@ -1,1 +1,3 @@
-# escape-from-the-school-fan-saite
+# escape-from-the-school-fan-site
+
+学校を出よう！ファンサイト
